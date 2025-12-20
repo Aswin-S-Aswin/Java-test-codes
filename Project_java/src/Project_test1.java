@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Project_test1 {
@@ -8,7 +7,7 @@ public class Project_test1 {
         double p = val.nextDouble();
         System.out.print("Enter your yearly intrest :");
         double intres = val.nextDouble();
-        double intre = intres/100;
+        double intre = intres/100/12;
         System.out.print("Enter Outcome Time or something(Yearly):");
         double years = val.nextDouble();
         double year = years*12;
